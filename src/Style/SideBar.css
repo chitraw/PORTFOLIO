@@ -1,0 +1,45 @@
+/* SideBar.css */
+
+.sidebar {
+    position: fixed;
+    top: 93px;
+    left: 0;
+    bottom: 0;
+    width: 60px; /* Adjust the width as needed */
+    background-color: #f2f2f2;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .menu-icon {
+    cursor: pointer;
+    margin-bottom: 20px; /* Adjust the space between the icon and list items */
+  }
+  
+  .style_icon  {
+    list-style: none; /* Remove default list styles */
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+ .style_icon li a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-size: 30px; /* Adjust the font size as needed */
+  }
+  
+  /* ul li a:hover {
+    color: blue;
+  } */
+  
